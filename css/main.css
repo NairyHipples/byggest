@@ -78,7 +78,15 @@ p {
 }
 #pic-container {
   height: 500px;
-  background-image: url(../img/Rishad_4.png);
+  background-image: url(../img/verktyg_30.jpg);
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+#pic-container2 {
+  height: 480px;
+  background-image: url(../img/verktyg_20.jpg);
   background-position: center bottom;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -303,8 +311,8 @@ ul > li.active {
 }
 
 .btn-primary:hover {
-  background-color: #3b2f2c;
-  border-color: #3b2f2c;
+  background-color: #fac400;
+  border-color: #fac400;
 }
 
 .footerText {

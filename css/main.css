@@ -14,7 +14,7 @@ body {
 }
 
 main {
-  height: 400px;
+  height: 500px;
   padding-top: 100px;
 }
 
@@ -56,8 +56,9 @@ p {
 }
 
 #pic-container {
-  background-image: url(../img/building-joy-planning-plans.jpg);
-  background-position: center center;
+  height: 500px;
+  background-image: url(../img/Rishad_4.png);
+  background-position: center bottom;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -74,9 +75,65 @@ a {
   font-size: 20px;
   text-decoration: none;
 }
+.marketing {
+  padding-top: 20px;
+  padding-right: 50px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+
+}
+.dropdown-menu {
+  border-radius: 0px;
+}
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
+    color: #fff;
+    text-decoration: none;
+    background-color: #fac400;
+    outline: 0;
+}
+.featurette-image {
+  max-width: 350px;
+}
+.white {
+  background-color: #ffffff;
+}
+.renovering-nav {}
+.grey-divider {
+  background-color: grey;
+  height: 5px;
+  width: 100%;
+}
+.marketing .circleRow h2 {
+  font-family: 'Allerta Stencil', sans-serif;
+  font-size: 44px;
+  color: #ffffff;
+  font-weight: 400;
+  line-height: 64px;
+  text-decoration: none;
+}
+.img-circle {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  -webkit-transition: width 0.1s, height 0.1s; /* For Safari 3.1 to 6.0 */
+  transition: width 0.1s, height 0.1s;
+  -webkit-transition-timing-function: ease;
+  transition-timing-function: ease;
+}
+.img-circle:hover {
+  width: 330px;
+  height: 330px;
+}
+
+}
+main .col-md-12 a:hover {
+cursor: pointer;
+font-size: 50px;
+}
 .nav-tabs.nav-justified > li > a {
   border-bottom: 0px;
   border-radius: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 .nav-tabs.nav-justified > li > a:hover {
     border: 1px solid #f0f0f0;
@@ -164,6 +221,9 @@ button > a:hover {
 .align-left {
   text-align: left;
 }
+.align-right {
+  text-align: right;
+}
 
 .ninjaDividerDiv {
   max-width: 500px;
@@ -204,18 +264,17 @@ ul > li.active {
 
 .btn-primary {
   display: block;
-  margin: 20px auto;
-  padding: 20px;
+  margin-top: 100px;
+  padding: 5px;
   background-color: #fac400;
   border-color: #fac400;
-  font-size: 1.5em;
   font-weight: 800;
-  border-radius: 10px;
+  border-radius: 0px;
 }
 
 .btn-primary:hover {
-  background-color: #5C5C5C;
-  border-color: #5C5C5C;
+  background-color: #3b2f2c;
+  border-color: #3b2f2c;
 }
 
 .footerText {

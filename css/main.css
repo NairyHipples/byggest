@@ -158,8 +158,8 @@ a {
   transition-timing-function: ease;
 }
 .img-circle:hover {
-  width: 330px;
-  height: 330px;
+  width: 285px;
+  height: 285px;
 }
 
 }

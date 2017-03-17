@@ -7,7 +7,6 @@ html {
 body {
   margin:0;
   padding:0;
-  height: 530px;
   background-color: #F0F0F0;
   font-family: 'Montserrat', sans-serif;
   color: #4F4F4F;
@@ -70,18 +69,26 @@ p {
   background-color: #ffffff;
 }
 #kok-pic-container {
-  height: 400px;
-  background-image: url(../img/pexels-photo-28412.jpg);
-  background-position: center bottom;
+  height: 480px;
+  background-image: url(../img/pexels-photo-239886_30.jpg);
+  background-position: center center;
   background-repeat: no-repeat;
+
+  background-size: cover;
+}
+#badrum-pic-container {
+  height: 480px;
+  background-image: url(../img/pexels-photo-105934_20.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+
   background-size: cover;
 }
 #pic-container {
   height: 500px;
-  background-image: url(../img/verktyg_30.jpg);
-  background-position: center bottom;
+  background-image: url(../img/building-joy-planning-plans_20.jpg);
+  background-position: center top;
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-size: cover;
 }
 #pic-container2 {
@@ -132,22 +139,49 @@ a {
   height: 5px;
   width: 100%;
 }
+.circleRow {
+  margin-top: 70px;
+}
 .marketing .circleRow h2 {
   font-family: 'Allerta Stencil', sans-serif;
-  font-size: 44px;
+  font-size: 24px;
   color: #fff;
   font-weight: 400;
   line-height: 64px;
   text-decoration: none;
 }
-.renovering-section h2 {
-  margin-top: 120px;
-  font-family: 'Allerta Stencil', sans-serif;
-  font-size: 80px;
-  color: #ffffff;
-  font-weight: 400;
-  line-height: 64px;
-  text-decoration: none;
+.fa {
+  text-align: center;
+  border-radius: 50%;
+  font-size: 100px;
+  color: #333;
+  background-color: #fac400;
+  width: 200px;
+  height: 200px;
+  -webkit-transition: width 0.1s, height 0.1s, padding-top 0.1s; /* For Safari 3.1 to 6.0 */
+  transition: width 0.1s, height 0.1s, padding-top 0.1s;
+  -webkit-transition-timing-function: ease;
+  transition-timing-function: ease;
+}
+.fa:hover {
+  color: #eee;
+  width: 230px;
+  height: 230px;
+}
+.fa-cutlery,
+.fa-bath,
+.fa-home,
+.fa-building {
+  padding-top: 50px;
+}
+.fa-cutlery:hover,
+.fa-bath:hover,
+.fa-home:hover,
+.fa-building:hover {
+  padding-top: 65px;
+}
+.iconClick {
+
 }
 .img-circle {
   margin-top: 30px;
@@ -161,7 +195,10 @@ a {
   width: 285px;
   height: 285px;
 }
-
+.img-circle2 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  border-radius: 50%;
 }
 main .col-md-12 a:hover {
 cursor: pointer;
@@ -235,22 +272,16 @@ button > a:hover {
   display: inline;
   margin-left: 20px;
   margin-right: 20px;
-  -webkit-transition: width 0.1s; /* For Safari 3.1 to 6.0 */
-  transition: 0.1s width;
 }
-.partnerLogo:hover {
-  width: 250px;
+.ahlsell {
+  width: 135px;
+  display: inline;
 }
 .dahl {
   height: 70px;
   display: inline;
   margin-left: 20px;
   margin-right: 20px;
-  -webkit-transition: height 0.1s; /* For Safari 3.1 to 6.0 */
-  transition: 0.1s height;
-}
-.dahl:hover {
-  height: 90px;
 }
 
 .center {
@@ -269,9 +300,6 @@ button > a:hover {
 .contact-info {
   padding-top: 35px;
   font-size: 18px;
-}
-.contact-info p:first-child {
-  padding-left: 43px;
 }
 .ninjaDivider {
   width: 100%;
@@ -325,7 +353,7 @@ footer .footerText:last-child {
 main .col-md-12 a {
   font-family: 'Allerta Stencil', sans-serif;
   font-size: 44px;
-  color: #ffffff;
+  color: #333;
   font-weight: 400;
   line-height: 64px;
   text-decoration: none;
@@ -348,6 +376,15 @@ main .col-md-12 a:hover {
   background-color: #fac400;
   padding-left: 2px;
   padding-right: 2px;
+}
+.highlight3 {
+  color: #333;
+  background-color: #fac400;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.underline {
+  border-bottom: 4px solid #fac400;
 }
 /* Style the Image Used to Trigger the Modal */
 #myImg1, #myImg2 {
@@ -434,4 +471,111 @@ main .col-md-12 a:hover {
     .modal-content {
         width: 100%;
     }
+}
+@media (max-width: 1200px) {
+  #pic-container2 {
+    height: 350px;
+  }
+  .fa {
+    width: 100px;
+    height: 100px;
+    font-size: 50px;
+  }
+  .fa:hover {
+    width: 120px;
+    height: 120px;
+  }
+  .fa-cutlery,
+  .fa-bath,
+  .fa-home,
+  .fa-building {
+    padding-top: 25px;
+  }
+  .fa-cutlery:hover,
+  .fa-bath:hover,
+  .fa-home:hover,
+  .fa-building:hover {
+    padding-top: 35px;
+  }
+  .marketing .circleRow h2 {
+    font-size: 18px;
+  }
+}
+@media (max-width: 991px) {
+  #pic-container2 {
+    height: 550px;
+  }
+  .fa:hover {
+    width: 100px;
+    height: 100px;
+    font-size: 50px;
+  }
+  .fa-cutlery:hover,
+  .fa-bath:hover,
+  .fa-home:hover,
+  .fa-building:hover {
+    padding-top: 25px;
+  }
+  .circleRow {
+    margin-top: 0px;
+  }
+  .marketing {
+    padding-top: 100px;
+  }
+  .marketing .circleRow h2 {
+    font-size: 28px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+  .footer {
+    height: 480px;
+  }
+}
+@media (max-width: 854px) {
+  .underline {
+    font-size: 25px;
+  }
+}
+@media (max-width: 768px) {
+  .topContainer {
+    border-bottom: 2px solid #eee;
+  }
+  #pic-container2 {
+    height: 850px;
+  }
+  .circleRow {
+    margin-top: 0px;
+  }
+  .marketing .circleRow h2 {
+    font-size: 28px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+  .marketing {
+    padding-top: 30px;
+  }
+
+}
+@media (max-width: 444px) {
+  .marketing {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .marketing .circleRow h2 {
+    font-size: 18px;
+  }
+}
+@media (max-width: 340px) {
+  .footerLogo {
+    width: 150px;
+  }
+  .footerText h2 {
+    font-size: 22px;
+  }
+  .footerText p {
+    font-size: 15px;
+  }
+  footer .footerText:last-child {
+    margin-top: 20px;
+  }
 }

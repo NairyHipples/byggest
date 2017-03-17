@@ -70,11 +70,20 @@ p {
 }
 #kok-pic-container {
   height: 480px;
-  background-image: url(../img/pexels-photo-239886_30.jpg);
+  background-image: url(../img/food-eating-potatoes-beer-8313_20.jpg);
   background-position: center center;
   background-repeat: no-repeat;
 
   background-size: cover;
+}
+#kok-pic-container .fa-cutlery:hover {
+  padding-top: 50px;
+  color: #333;
+}
+#kok-pic-container .fa:hover {
+  width: 200px;
+  height: 200px;
+  cursor: default;
 }
 #badrum-pic-container {
   height: 480px;
@@ -83,6 +92,15 @@ p {
   background-repeat: no-repeat;
 
   background-size: cover;
+}
+#badrum-pic-container .fa-bath:hover {
+  padding-top: 50px;
+  color: #333;
+}
+#badrum-pic-container .fa:hover {
+  width: 200px;
+  height: 200px;
+  cursor: default;
 }
 #pic-container {
   height: 500px;
@@ -112,9 +130,9 @@ a {
   text-decoration: none;
 }
 .marketing {
-  padding-top: 20px;
+  padding-top: 90px;
   padding-right: 50px;
-  padding-bottom: 20px;
+  padding-bottom: 90px;
   padding-left: 50px;
 
 }
@@ -138,9 +156,6 @@ a {
   background-color: grey;
   height: 5px;
   width: 100%;
-}
-.circleRow {
-  margin-top: 70px;
 }
 .marketing .circleRow h2 {
   font-family: 'Allerta Stencil', sans-serif;
@@ -201,8 +216,8 @@ a {
   border-radius: 50%;
 }
 main .col-md-12 a:hover {
-cursor: pointer;
-font-size: 50px;
+  cursor: pointer;
+  font-size: 50px;
 }
 .nav-tabs.nav-justified > li > a {
   border-bottom: 0px;
@@ -265,23 +280,28 @@ button > a:hover {
 }
 .partners h2 {
   color: #aaa;
-  padding-bottom: 30px;
+  padding-bottom: 0px;
 }
 .partnerLogo {
   width: 200px;
   display: inline;
+  margin-top: 40px;
   margin-left: 20px;
   margin-right: 20px;
 }
 .ahlsell {
   width: 135px;
   display: inline;
+  margin-top: 40px;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 .dahl {
   height: 70px;
   display: inline;
-  margin-left: 20px;
+  margin-top: 40px;
   margin-right: 20px;
+  margin-left: 20px;
 }
 
 .center {
@@ -520,12 +540,15 @@ main .col-md-12 a:hover {
     margin-top: 0px;
   }
   .marketing {
-    padding-top: 100px;
+    padding-top: 60px;
   }
   .marketing .circleRow h2 {
     font-size: 28px;
     margin-top: 0px;
     margin-bottom: 40px;
+  }
+  .partners {
+    height: 360px;
   }
   .footer {
     height: 480px;
@@ -556,12 +579,55 @@ main .col-md-12 a:hover {
   }
 
 }
+@media (max-width: 740px) {
+  main .col-md-12 a {
+    font-size: 28px;
+    line-height: 43px;
+  }
+  main .col-md-12 a:hover {
+    cursor: pointer;
+    font-size: 34px;
+  }
+}
+@media (max-width: 636px) {
+  .partners {
+    height: 420px;
+  }
+}
+@media (max-width: 540px) {
+  main .col-md-12 a {
+    font-size: 22px;
+    line-height: 36px;
+  }
+  main .col-md-12 a:hover {
+    cursor: pointer;
+    font-size: 22px;
+  }
+}
 @media (max-width: 444px) {
   .marketing {
     padding-left: 10px;
     padding-right: 10px;
   }
   .marketing .circleRow h2 {
+    font-size: 18px;
+  }
+}
+@media (max-width: 435px) {
+  .partners {
+    height: 483px;
+  }
+}
+@media (max-width: 393px) {
+  .partners {
+    height: 580px;
+  }
+  main .col-md-12 a {
+    font-size: 18px;
+    line-height: 36px;
+  }
+  main .col-md-12 a:hover {
+    cursor: pointer;
     font-size: 18px;
   }
 }
@@ -577,5 +643,42 @@ main .col-md-12 a:hover {
   }
   footer .footerText:last-child {
     margin-top: 20px;
+  }
+}
+@media (max-width: 319px) {
+  main .col-md-12 a {
+    font-size: 18px;
+  }
+  main .col-md-12 a:hover {
+    cursor: pointer;
+    font-size: 18px;
+  }
+  .container {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+}
+@media (max-width: 280px) {
+  .partnerLogo {
+    width: 90px;
+  }
+  .dahl {
+    width: 90px;
+  }
+  .ahlsell {
+    width: 90px;
+  }
+}
+@media (max-width: 187px) {
+  .nav-tabs.nav-justified > li > a {
+    font-size: 15px;
+    margin-bottom: 0px;
+  }
+  main .col-md-12 a {
+    font-size: 15px;
+  }
+  main .col-md-12 a:hover {
+    cursor: pointer;
+    font-size: 15px;
   }
 }

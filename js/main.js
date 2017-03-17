@@ -1,6 +1,8 @@
+$(document).ready(function() {
+
 // Get the modal
-var modal1 = document.getElementById('myModal1');
 var modal2 = document.getElementById('myModal2');
+var modal1 = document.getElementById('myModal1');
 
 // Get the image and insert it inside the modal - use its "alt" text as a caption
 var img1 = document.getElementById('myImg1');
@@ -34,3 +36,4 @@ modal1.onclick = function() {
 modal2.onclick = function() {
   modal2.style.display = "none";
 }
+});

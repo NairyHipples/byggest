@@ -1,7 +1,6 @@
 html {
   position: relative;
   min-height: 100%;
-  overflow-x: hidden;
 }
 
 body {
@@ -68,6 +67,7 @@ p {
 }
 .container2 {
   max-width: 1200px;
+  padding-top: 100px;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
@@ -206,7 +206,11 @@ a {
   height: 5px;
   width: 100%;
 }
-.marketing .circleRow h2 {
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.circleRow h2 {
   font-family: 'Allerta Stencil', sans-serif;
   font-size: 24px;
   color: #fff;
@@ -363,7 +367,6 @@ button > a:hover {
   margin-right: 20px;
   margin-left: 20px;
 }
-
 .center {
   text-align: center;
 }
@@ -463,6 +466,12 @@ main .col-md-12 a:hover {
   padding-left: 5px;
   padding-right: 5px;
 }
+.highlight4 {
+  color: #fff;
+  background-color: #fac400;
+  padding-left: 5px;
+  padding-right: 5px;
+}
 .underline {
   border-bottom: 4px solid #fac400;
 }
@@ -494,7 +503,7 @@ main .col-md-12 a:hover {
 .modal-content {
     margin: auto;
     display: block;
-    width: 80%;
+    width: 70%;
     max-width: 700px;
 }
 
@@ -553,8 +562,12 @@ main .col-md-12 a:hover {
     }
 }
 @media (max-width: 1200px) {
+  .container2 {
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
   #pic-container2 {
-    height: 350px;
+    height: 240px;
   }
   .fa {
     width: 100px;
@@ -577,13 +590,76 @@ main .col-md-12 a:hover {
   .fa-building:hover {
     padding-top: 35px;
   }
-  .marketing .circleRow h2 {
+  .circleRow h2 {
+    margin-top: 0px;
     font-size: 18px;
+  }
+  .marketing {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  #kok-pic-container {
+    height: 240px;
+    background-image: url(../img/pexels-photo-259828.jpg);
+  }
+  #kok-pic-container .fa:hover {
+    width: 100px;
+    height: 100px;
+    cursor: default;
+  }
+  #kok-pic-container .fa-cutlery:hover {
+    padding-top: 25px;
+    color: #333;
+  }
+  #badrum-pic-container {
+    height: 240px;
+    background-image: url(../img/pexels-photo-105934_20.jpg);
+  }
+  #badrum-pic-container .fa:hover {
+    width: 100px;
+    height: 100px;
+    cursor: default;
+  }
+  #badrum-pic-container .fa-bath:hover {
+    padding-top: 25px;
+    color: #333;
+  }
+  #snickeri-pic-container {
+    height: 240px;
+    background-image: url(../img/pexels-photo-345135.jpg);
+  }
+  #snickeri-pic-container .fa:hover {
+    width: 100px;
+    height: 100px;
+    cursor: default;
+  }
+  #snickeri-pic-container .fa-home:hover {
+    padding-top: 25px;
+    color: #333;
+  }
+  #total-pic-container {
+    height: 240px;
+    background-image: url(../img/pexels-photo.jpg);
+  }
+  #total-pic-container .fa:hover {
+    width: 100px;
+    height: 100px;
+    cursor: default;
+  }
+  #total-pic-container .fa-building:hover {
+    padding-top: 25px;
+    color: #333;
+  }
+  .circleRow h2 {
+    font-size: 20px;
   }
 }
 @media (max-width: 991px) {
   #pic-container2 {
     height: 550px;
+  }
+  .margin-top {
+    margin-top: 30px;
   }
   .fa:hover {
     width: 100px;
@@ -619,7 +695,10 @@ main .col-md-12 a:hover {
     font-size: 25px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
+  .container2 {
+    padding-top: 10px;
+  }
   .topContainer {
     border-bottom: 2px solid #eee;
   }
@@ -634,12 +713,12 @@ main .col-md-12 a:hover {
     margin-top: 0px;
     margin-bottom: 40px;
   }
-  .marketing {
-    padding-top: 30px;
-  }
 
 }
 @media (max-width: 740px) {
+  h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    line-height: 1.3;
+  }
   main .col-md-12 a {
     font-size: 28px;
     line-height: 43px;
@@ -702,7 +781,7 @@ main .col-md-12 a:hover {
 }
 @media (max-width: 340px) {
   .partner-heading-h2 {
-    font-size: 20px;
+    font-size: 30px;
   }
   .footerLogo {
     width: 150px;
@@ -731,6 +810,32 @@ main .col-md-12 a:hover {
   }
 }
 @media (max-width: 280px) {
+  .dropdown-menu > li > a {
+    font-size: 12px;
+  }
+  .headerLogo {
+    margin-bottom: 10px;
+  }
+  .container2 {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .marketing {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .underline {
+    font-size: 18px;
+  }
+  .partner-heading-h2 {
+    font-size: 30px;
+  }
+  .partner-heading-h3 {
+    font-size: 22px;
+  }
+  .partners h2 {
+    font-size: 14px;
+  }
   .partnerLogo {
     width: 90px;
   }
@@ -743,16 +848,54 @@ main .col-md-12 a:hover {
   .ahlsell {
     width: 90px;
   }
+  .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6,
+  .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .white2 .container ul {
+    padding-left: 0px;
+  }
+@media (max-width: 244px) {
+  .highlight3 {
+    font-size: 12px;
+  }
 }
-@media (max-width: 227px) {
-  .partner-heading-h2 {
-    font-size: 13px;
+@media (max-width: 197px) {
+  .featurette-heading {
+    font-size: 18px;
   }
 }
 @media (max-width: 187px) {
+
+  .dropdown-menu {
+    min-width: 120px;
+  }
+  .dropdown-menu > li > a {
+    font-size: 10px;
+    padding: 3px 3px;
+  }
+  .col-md-6 {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .footerText h2 {
+    font-size: 12px;
+  }
+  .footerLogo {
+    width: 100px;
+  }
   .nav-tabs.nav-justified > li > a {
-    font-size: 15px;
+    font-size: 12px;
     margin-bottom: 0px;
+  }
+  .partner-heading-h2 {
+    font-size: 24px;
+  }
+  .partner-heading-h3 {
+    font-size: 18px;
   }
   main .col-md-12 a {
     font-size: 15px;
@@ -760,5 +903,23 @@ main .col-md-12 a:hover {
   main .col-md-12 a:hover {
     cursor: pointer;
     font-size: 15px;
+  }
+  .partnerLogo {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .ahlsell {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .dahl {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .white2 .container p {
+    font-size: 14px;
+  }
+  .white2 .container ul {
+    font-size: 10px;
   }
 }

@@ -70,7 +70,7 @@ p {
 }
 #kok-pic-container {
   height: 480px;
-  background-image: url(../img/food-eating-potatoes-beer-8313_20.jpg);
+  background-image: url(../img/pexels-photo-259828.jpg);
   background-position: center center;
   background-repeat: no-repeat;
 
@@ -101,6 +101,38 @@ p {
   width: 200px;
   height: 200px;
   cursor: default;
+}
+#snickeri-pic-container {
+  height: 480px;
+  background-image: url(../img/pexels-photo-345135.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#snickeri-pic-container .fa-home:hover {
+  padding-top: 50px;
+  color: #333;
+}
+#snickeri-pic-container .fa:hover {
+    width: 200px;
+    height: 200px;
+    cursor: default;
+}
+#total-pic-container {
+  height: 480px;
+  background-image: url(../img/pexels-photo.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#total-pic-container .fa-building:hover {
+  padding-top: 50px;
+  color: #333;
+}
+#total-pic-container .fa:hover {
+    width: 200px;
+    height: 200px;
+    cursor: default;
 }
 #pic-container {
   height: 500px;
@@ -286,14 +318,22 @@ button > a:hover {
   width: 200px;
   display: inline;
   margin-top: 40px;
-  margin-left: 20px;
   margin-right: 20px;
+  margin-left: 20px;
+}
+.bauhaus {
+  width: 180px;
+  display: inline;
+  margin-top: 40px;
+  margin-right: 10px;
+  margin-left: 20px;
+
 }
 .ahlsell {
   width: 135px;
   display: inline;
   margin-top: 40px;
-  margin-right: 20px;
+  margin-right: 10px;
   margin-left: 20px;
 }
 .dahl {

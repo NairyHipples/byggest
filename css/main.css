@@ -50,6 +50,19 @@ p {
 /**************************
      BOOTSTRAP OVERRIDES
 ***************************/
+.partner-heading {
+  clear:both;
+  display: inline-block;
+}
+.partner-heading-h2 {
+  float: left;
+}
+.partner-heading-h3 {
+  float: left;
+  color: #fff;
+  margin-top: 25px;
+  margin-left: 10px;
+}
 .container {
   max-width: 720px;
 }
@@ -183,6 +196,10 @@ a {
 .white {
   background-color: #ffffff;
 }
+.white2 {
+  padding-bottom: 40px;
+  background-color: #ffffff;
+}
 .renovering-nav {}
 .grey-divider {
   background-color: grey;
@@ -309,6 +326,9 @@ button > a:hover {
   padding-top: 20px;
   padding-bottom: 20px;
   background-color: #ffffff;
+}
+.about-partners {
+  padding-bottom: 40px;
 }
 .partners h2 {
   color: #aaa;
@@ -644,6 +664,12 @@ main .col-md-12 a:hover {
     font-size: 22px;
   }
 }
+@media (max-width: 487px) {
+  .partner-heading-h3 {
+    margin-left: 0px;
+    float: none;
+  }
+}
 @media (max-width: 444px) {
   .marketing {
     padding-left: 10px;
@@ -656,6 +682,9 @@ main .col-md-12 a:hover {
 @media (max-width: 435px) {
   .partners {
     height: 483px;
+  }
+  .bauhaus {
+    margin-left: 0px;
   }
 }
 @media (max-width: 393px) {
@@ -672,6 +701,9 @@ main .col-md-12 a:hover {
   }
 }
 @media (max-width: 340px) {
+  .partner-heading-h2 {
+    font-size: 20px;
+  }
   .footerLogo {
     width: 150px;
   }
@@ -702,11 +734,19 @@ main .col-md-12 a:hover {
   .partnerLogo {
     width: 90px;
   }
+  .bauhaus {
+    width: 90px;
+  }
   .dahl {
     width: 90px;
   }
   .ahlsell {
     width: 90px;
+  }
+}
+@media (max-width: 227px) {
+  .partner-heading-h2 {
+    font-size: 13px;
   }
 }
 @media (max-width: 187px) {

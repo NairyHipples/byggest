@@ -50,6 +50,19 @@ p {
 /**************************
      BOOTSTRAP OVERRIDES
 ***************************/
+.partner-heading {
+  clear:both;
+  display: inline-block;
+}
+.partner-heading-h2 {
+  float: left;
+}
+.partner-heading-h3 {
+  float: left;
+  color: #fff;
+  margin-top: 25px;
+  margin-left: 10px;
+}
 .container {
   max-width: 720px;
 }
@@ -70,7 +83,7 @@ p {
 }
 #kok-pic-container {
   height: 480px;
-  background-image: url(../img/food-eating-potatoes-beer-8313_20.jpg);
+  background-image: url(../img/pexels-photo-259828.jpg);
   background-position: center center;
   background-repeat: no-repeat;
 
@@ -101,6 +114,38 @@ p {
   width: 200px;
   height: 200px;
   cursor: default;
+}
+#snickeri-pic-container {
+  height: 480px;
+  background-image: url(../img/pexels-photo-345135.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#snickeri-pic-container .fa-home:hover {
+  padding-top: 50px;
+  color: #333;
+}
+#snickeri-pic-container .fa:hover {
+    width: 200px;
+    height: 200px;
+    cursor: default;
+}
+#total-pic-container {
+  height: 480px;
+  background-image: url(../img/pexels-photo.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#total-pic-container .fa-building:hover {
+  padding-top: 50px;
+  color: #333;
+}
+#total-pic-container .fa:hover {
+    width: 200px;
+    height: 200px;
+    cursor: default;
 }
 #pic-container {
   height: 500px;
@@ -149,6 +194,10 @@ a {
   max-width: 350px;
 }
 .white {
+  background-color: #ffffff;
+}
+.white2 {
+  padding-bottom: 40px;
   background-color: #ffffff;
 }
 .renovering-nav {}
@@ -278,6 +327,9 @@ button > a:hover {
   padding-bottom: 20px;
   background-color: #ffffff;
 }
+.about-partners {
+  padding-bottom: 40px;
+}
 .partners h2 {
   color: #aaa;
   padding-bottom: 0px;
@@ -286,14 +338,22 @@ button > a:hover {
   width: 200px;
   display: inline;
   margin-top: 40px;
-  margin-left: 20px;
   margin-right: 20px;
+  margin-left: 20px;
+}
+.bauhaus {
+  width: 180px;
+  display: inline;
+  margin-top: 40px;
+  margin-right: 10px;
+  margin-left: 20px;
+
 }
 .ahlsell {
   width: 135px;
   display: inline;
   margin-top: 40px;
-  margin-right: 20px;
+  margin-right: 10px;
   margin-left: 20px;
 }
 .dahl {
@@ -604,6 +664,12 @@ main .col-md-12 a:hover {
     font-size: 22px;
   }
 }
+@media (max-width: 487px) {
+  .partner-heading-h3 {
+    margin-left: 0px;
+    float: none;
+  }
+}
 @media (max-width: 444px) {
   .marketing {
     padding-left: 10px;
@@ -616,6 +682,9 @@ main .col-md-12 a:hover {
 @media (max-width: 435px) {
   .partners {
     height: 483px;
+  }
+  .bauhaus {
+    margin-left: 0px;
   }
 }
 @media (max-width: 393px) {
@@ -632,6 +701,9 @@ main .col-md-12 a:hover {
   }
 }
 @media (max-width: 340px) {
+  .partner-heading-h2 {
+    font-size: 20px;
+  }
   .footerLogo {
     width: 150px;
   }
@@ -662,11 +734,19 @@ main .col-md-12 a:hover {
   .partnerLogo {
     width: 90px;
   }
+  .bauhaus {
+    width: 90px;
+  }
   .dahl {
     width: 90px;
   }
   .ahlsell {
     width: 90px;
+  }
+}
+@media (max-width: 227px) {
+  .partner-heading-h2 {
+    font-size: 13px;
   }
 }
 @media (max-width: 187px) {

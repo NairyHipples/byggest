@@ -44,8 +44,25 @@ p {
   background-color: #FFF;
   width: 100%;
 }
-
-
+.contact-button-container {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.contact-button {
+  padding: 30px 40px;
+  font-family: 'Allerta Stencil', sans-serif;
+  font-size: 24px;
+  background-color: #fac400;
+  -webkit-transition: padding 0.1s, font-size 0.1s; /* For Safari 3.1 to 6.0 */
+  transition: padding 0.1s, font-size 0.1s;
+  -webkit-transition-timing-function: ease;
+  transition-timing-function: ease;
+}
+.contact-button:hover {
+  text-decoration: none;
+  padding: 40px 50px;
+  font-size: 28px;
+}
 /**************************
      BOOTSTRAP OVERRIDES
 ***************************/
@@ -476,13 +493,13 @@ main .col-md-12 a:hover {
   border-bottom: 4px solid #fac400;
 }
 /* Style the Image Used to Trigger the Modal */
-#myImg1, #myImg2 {
+#myImg1, #myImg2, #myImg3, #myImg4 {
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
 }
 
-#myImg1:hover, #myImg2:hover {opacity: 0.7;}
+#myImg1:hover, #myImg2:hover, #myImg3:hover, #myImg4:hover {opacity: 0.7;}
 
 /* The Modal (background) */
 .modal {
@@ -508,7 +525,7 @@ main .col-md-12 a:hover {
 }
 
 /* Caption of Modal Image (Image Text) - Same Width as the Image */
-#caption1, #caption2 {
+#caption1, #caption2, #caption3, #caption4 {
     margin: auto;
     display: block;
     width: 80%;
@@ -520,7 +537,7 @@ main .col-md-12 a:hover {
 }
 
 /* Add Animation - Zoom in the Modal */
-.modal-content, #caption1, #caption2 {
+.modal-content, #caption1, #caption2, #caption3, #caption4 {
     -webkit-animation-name: zoom;
     -webkit-animation-duration: 0.6s;
     animation-name: zoom;
@@ -795,6 +812,12 @@ main .col-md-12 a:hover {
   footer .footerText:last-child {
     margin-top: 20px;
   }
+  .contact-button {
+    font-size: 18px;
+  }
+  .contact-button:hover {
+    font-size: 20px;
+  }
 }
 @media (max-width: 319px) {
   main .col-md-12 a {
@@ -861,6 +884,16 @@ main .col-md-12 a:hover {
 @media (max-width: 244px) {
   .highlight3 {
     font-size: 12px;
+  }
+}
+@media (max-width: 228px) {
+  .contact-button {
+    font-size: 18px;
+    padding: 10px 10px;
+  }
+  .contact-button:hover {
+    font-size: 18px;
+    padding: 10px 10px;
   }
 }
 @media (max-width: 197px) {

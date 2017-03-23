@@ -45,8 +45,9 @@ p {
   width: 100%;
 }
 .contact-button-container {
-  margin-top: 80px;
+  margin-top: 50px;
   margin-bottom: 80px;
+  text-align: center;
 }
 .contact-button {
   padding: 30px 40px;
@@ -881,19 +882,19 @@ main .col-md-12 a:hover {
   .white2 .container ul {
     padding-left: 0px;
   }
+  @media (max-width: 251px) {
+    .contact-button {
+      font-size: 18px;
+      padding: 10px 10px;
+    }
+    .contact-button:hover {
+      font-size: 18px;
+      padding: 10px 10px;
+    }
+  }
 @media (max-width: 244px) {
   .highlight3 {
     font-size: 12px;
-  }
-}
-@media (max-width: 228px) {
-  .contact-button {
-    font-size: 18px;
-    padding: 10px 10px;
-  }
-  .contact-button:hover {
-    font-size: 18px;
-    padding: 10px 10px;
   }
 }
 @media (max-width: 197px) {
@@ -954,5 +955,15 @@ main .col-md-12 a:hover {
   }
   .white2 .container ul {
     font-size: 10px;
+  }
+}
+@media (max-width: 187px) {
+  .contact-button {
+    font-size: 16px;
+    padding: 10px 10px;
+  }
+  .contact-button:hover {
+    font-size: 16px;
+    padding: 10px 10px;
   }
 }

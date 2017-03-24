@@ -326,13 +326,14 @@ if (typeof jQuery === 'undefined') {
 
   Carousel.VERSION  = '3.3.6'
 
-  Carousel.TRANSITION_DURATION = 600
+  Carousel.TRANSITION_DURATION = 1500
 
   Carousel.DEFAULTS = {
     interval: 5000,
     pause: 'hover',
     wrap: true,
-    keyboard: true
+    keyboard: true,
+    duration: 1500
   }
 
   Carousel.prototype.keydown = function (e) {
@@ -563,7 +564,7 @@ if (typeof jQuery === 'undefined') {
 
   Collapse.VERSION  = '3.3.6'
 
-  Collapse.TRANSITION_DURATION = 350
+  Collapse.TRANSITION_DURATION = 2000
 
   Collapse.DEFAULTS = {
     toggle: true

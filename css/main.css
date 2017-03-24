@@ -28,7 +28,13 @@ h1, h2, h3, h4, h5, h6 {
 p {
   font-size: 1.3em;
 }
-
+li {
+  font-size: 1em;
+}
+.mobile-indicator {
+  display: none;
+  margin-top: 7px;
+}
 .footer {
   padding-top: 30px;
   bottom: 0;
@@ -64,6 +70,52 @@ p {
   padding: 40px 50px;
   font-size: 28px;
 }
+.mi-carousel-button {
+  height: 70px;
+  width: 200px;
+  padding: 10px;
+  font-family: 'Allerta Stencil', sans-serif;
+  font-size: 40px;
+  color: #333;
+  background-color: #fac400;
+  border: none;
+  border-radius: 0px;
+}
+.carousel-button:hover {
+  cursor: pointer;
+  text-decoration: none;
+}
+#myCarousel {
+  height: 500px;
+  overflow-y: hidden;
+}
+.carousel-caption {
+  top: 160px;
+  bottom: 0px;
+  height: 200px;
+  padding-top: 0px;
+  text-shadow: none;
+}
+.carousel-caption h1 {
+  margin-bottom: 6px;
+  color: #fff;
+}
+.carousel-button {
+  display: none;
+  height: 70px;
+  width: 200px;
+  padding: 10px;
+  font-family: 'Allerta Stencil', sans-serif;
+  font-size: 40px;
+  color: #333;
+  background-color: #fac400;
+  border: none;
+  border-radius: 0px;
+}
+.carousel-button:hover {
+  cursor: pointer;
+  text-decoration: none;
+}
 /**************************
      BOOTSTRAP OVERRIDES
 ***************************/
@@ -93,11 +145,15 @@ p {
 }
 .container2-white {
   max-width: 1200px;
+  padding-top: 0px;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
   background-color: #ffffff;
+}
+.services {
+  font-size: 18px;
 }
 #kok-pic-container {
   height: 480px;
@@ -672,7 +728,20 @@ main .col-md-12 a:hover {
     font-size: 20px;
   }
 }
+@media (max-width: 1106px) {
+  .carousel-caption h1 {
+    font-size: 25px;
+    margin-bottom: 3px;
+  }
+}
 @media (max-width: 991px) {
+  #myCarousel {
+    height: 300px;
+    overflow-y: hidden;
+  }
+  .carousel-caption {
+    top: 60px;
+  }
   #pic-container2 {
     height: 550px;
   }
@@ -714,6 +783,12 @@ main .col-md-12 a:hover {
   }
 }
 @media (max-width: 767px) {
+  .mobile-indicator {
+    display: inline-block;
+  }
+  .desktop-indicator .carousel-button {
+    display: none;
+  }
   .container2 {
     padding-top: 10px;
   }
@@ -747,6 +822,15 @@ main .col-md-12 a:hover {
   }
 }
 @media (max-width: 636px) {
+  #myCarousel {
+    height: 200px;
+  }
+  .carousel-caption {
+    top: 20px;
+  }
+  .mi-carousel-button {
+    font-size: 24px;
+  }
   .partners {
     height: 420px;
   }
@@ -777,6 +861,9 @@ main .col-md-12 a:hover {
   }
 }
 @media (max-width: 435px) {
+  li {
+    font-size: 14px;
+  }
   .partners {
     height: 483px;
   }
@@ -785,6 +872,12 @@ main .col-md-12 a:hover {
   }
 }
 @media (max-width: 393px) {
+  .item {
+    min-height: 200px;
+  }
+  .carousel-caption h1 .underline {
+    font-size: 18px;
+  }
   .partners {
     height: 580px;
   }
@@ -882,7 +975,13 @@ main .col-md-12 a:hover {
   .white2 .container ul {
     padding-left: 0px;
   }
-  @media (max-width: 251px) {
+  @media (max-width: 256px) {
+    .carousel-caption h1 .underline {
+      font-size: 15px;
+    }
+    .mi-carousel-button {
+      font-size: 14px;
+    }
     .contact-button {
       font-size: 18px;
       padding: 10px 10px;

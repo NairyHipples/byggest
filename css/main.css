@@ -38,15 +38,15 @@ li {
     width:576px;
 }
 label {
-    display:block;
-    text-align: left;
-    margin-top:20px;
-    letter-spacing:2px;
+  display:block;
+  text-align: left;
+  margin-top:20px;
+  font-size: 20px;
 }
 /* Centre the form within the page */
 form {
-    margin: 0 auto;
-    width: 459px;
+  margin: 0 auto;
+  width: 459px;
 }
 .form-horizontal .control-label {
     text-align: left;
@@ -54,8 +54,33 @@ form {
 
 /* Style the text boxes */
 input, textarea {
-    width:439px;
-    margin-top:3px;
+  width:439px;
+  margin-top:3px;
+}
+.vvs {
+  height: 105px;
+}
+.vatrum {
+  height: 80px;
+}
+.per {
+  height: 80px;
+}
+.auktoritet-logos img {
+  display: inline-block;
+}
+.auktoritet-logos {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+#offert-bg {
+  background-image: url('../img/building-joy-planning-plans_40.jpg');
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+#offert-bg h1 {
+  margin-top: 50px;
 }
 .mobile-indicator {
   background-color: #fff;
@@ -107,7 +132,7 @@ input, textarea {
   padding-top: 30px;
   bottom: 0;
   width: 100%;
-  height: 350px;
+  height: 370px;
   color: #FFF;
   background-color: #A6A6A6;
   text-align: center;
@@ -118,7 +143,7 @@ input, textarea {
   width: 100%;
 }
 .contact-button-container {
-  margin-top: 50px;
+  margin-top: 80px;
   margin-bottom: 80px;
   text-align: center;
 }
@@ -139,6 +164,7 @@ textarea {
   text-decoration: none;
   padding: 40px 50px;
   font-size: 28px;
+  color: #000;
 }
 .send-button {
   margin-bottom: 30px;
@@ -157,6 +183,7 @@ textarea {
   text-decoration: none;
   padding: 30px 40px;
   font-size: 24px;
+  color: #000;
 }
 .carousel-button:hover {
   cursor: pointer;
@@ -341,7 +368,7 @@ textarea {
 }
 
 a {
-  color: #3b2f2c;
+  color: #333;
   font-size: 17px;
   text-decoration: none;
 }
@@ -465,7 +492,7 @@ main .col-md-12 a:hover {
 }
 
 li > a:hover {
-  color: #3b2f2c;
+  color: #333;
 }
 
 button > a:hover {
@@ -545,7 +572,7 @@ button > a:hover {
   max-width: 500px;
 }
 .contact-info {
-  padding-top: 75px;
+  padding-top: 78px;
   font-size: 18px;
 }
 .ninjaDivider {
@@ -830,7 +857,7 @@ main .col-md-12 a:hover {
     font-size: 20px;
   }
 }
-@media (max-width: 1010px) {
+@media (max-width: 991px) {
   #myCarousel {
     max-height: 400px;
   }
@@ -872,7 +899,7 @@ main .col-md-12 a:hover {
     height: 360px;
   }
   .footer {
-    height: 510px;
+    height: 534px;
   }
 }
 @media (max-width: 854px) {
@@ -901,9 +928,6 @@ main .col-md-12 a:hover {
   }
   .container2 {
     padding-top: 10px;
-  }
-  .topContainer {
-    border-bottom: 2px solid #eee;
   }
   #pic-container2 {
     height: 850px;
@@ -943,6 +967,10 @@ main .col-md-12 a:hover {
   }
 }
 @media (max-width: 540px) {
+  form, .send-button {
+    width: 300px;
+  }
+
   main .col-md-12 a {
     font-size: 22px;
     line-height: 36px;
@@ -950,6 +978,17 @@ main .col-md-12 a:hover {
   main .col-md-12 a:hover {
     cursor: pointer;
     font-size: 22px;
+  }
+}
+@media (max-width: 506px) {
+  .contact-button {
+    font-size: 20px;
+    padding: 20px 20px;
+
+  }
+  .contact-button:hover {
+    font-size: 20px;
+    padding: 20px 20px;
   }
 }
 @media (max-width: 487px) {
@@ -977,23 +1016,23 @@ main .col-md-12 a:hover {
 }
 @media (max-width: 423px) {
   .partners {
-    height: 520px;
+    height: 540px;
   }
 }
 @media (max-width: 405px) {
   .partners {
-    height: 580px;
+    height: 600px;
   }
 }
 @media (max-width: 393px) {
+  h1, .h1 {
+    font-size: 25px;
+  }
   .item {
     min-height: 200px;
   }
   .carousel-caption h1 .underline {
     font-size: 18px;
-  }
-  .partners {
-    height: 580px;
   }
   main .col-md-12 a {
     font-size: 18px;
@@ -1004,7 +1043,10 @@ main .col-md-12 a:hover {
     font-size: 18px;
   }
 }
-@media (max-width: 340px) {
+@media (max-width: 348px) {
+  form, .send-button {
+    width: 200px;
+  }
   .partner-heading-h2 {
     font-size: 30px;
   }
@@ -1057,6 +1099,10 @@ main .col-md-12 a:hover {
   }
   .underline {
     font-size: 18px;
+    line-height: normal;
+  }
+  .partners {
+    height: 480px;
   }
   .partner-heading-h2 {
     font-size: 30px;
@@ -1072,12 +1118,18 @@ main .col-md-12 a:hover {
   }
   .bauhaus {
     width: 90px;
+    margin-top: 40px;
+    margin-right: 20px;
+    margin-left: 20px;
   }
   .dahl {
     width: 90px;
   }
   .ahlsell {
     width: 90px;
+    margin-top: 40px;
+    margin-right: 20px;
+    margin-left: 20px;
   }
   .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6,
   .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
@@ -1090,6 +1142,30 @@ main .col-md-12 a:hover {
     padding-left: 0px;
   }
   @media (max-width: 256px) {
+    h1, .h1 {
+      font-size: 23px;
+    }
+    h2, .h2 {
+      font-size: 20px;
+    }
+    p {
+      font-size: 1em;
+    }
+    form, .send-button {
+      width: 150px;
+    }
+    .img-circle {
+      width: 100px;
+      height: 100px;
+    }
+    .send-button {
+      font-size: 14px;
+      padding: 5px 5px;
+    }
+    .send-button:hover {
+      font-size: 14px;
+      padding: 5px 5px;
+    }
     .carousel-caption h1 .underline {
       font-size: 15px;
     }
@@ -1103,17 +1179,61 @@ main .col-md-12 a:hover {
     }
   }
 @media (max-width: 244px) {
+  h1, .h1 {
+    font-size: 18px;
+  }
   .highlight3 {
     font-size: 12px;
   }
 }
+@media (max-width: 200px) {
+  .underline {
+    font-size: 15px;
+    line-height: normal;
+  }
+  .contact-button {
+    font-size: 14px;
+    padding: 10px 10px;
+
+  }
+  .contact-button:hover {
+    font-size: 14px;
+    padding: 10px 10px;
+  }
+  .vvs {
+    height: 70px;
+  }
+  .vatrum, .per {
+    height: 50px;
+  }
+}
 @media (max-width: 197px) {
-  .featurette-heading {
-    font-size: 18px;
+  h4, .h4 {
+    font-size: 13px;
+  }
+  form, .send-button {
+    width: 100px;
+  }
+  .send-button {
+    font-size: 14px;
+    padding: 5px 5px;
+  }
+  .send-button:hover {
+    font-size: 14px;
+    padding: 5px 5px;
+  }
+  .highlight {
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }
 @media (max-width: 187px) {
-
+  h1, .h1 {
+    font-size: 12px;
+  }
+  p {
+    font-size: 0.8em;
+  }
   .dropdown-menu {
     min-width: 120px;
   }
@@ -1167,13 +1287,17 @@ main .col-md-12 a:hover {
     font-size: 10px;
   }
 }
-@media (max-width: 187px) {
+@media (max-width: 164px) {
+  h2, .h2 {
+    font-size: 17px;
+  }
   .contact-button {
-    font-size: 16px;
-    padding: 10px 10px;
+    font-size: 12px;
+    padding: 5px 5px;
+
   }
   .contact-button:hover {
-    font-size: 16px;
-    padding: 10px 10px;
+    font-size: 12px;
+    padding: 5px 5px;
   }
 }

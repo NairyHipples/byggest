@@ -32,8 +32,50 @@ li {
   font-size: 1em;
 }
 .mobile-indicator {
+  background-color: #fff;
   display: none;
-  margin-top: 7px;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  padding-top: 0px;
+}
+.item1 {
+  height: 300px;
+  width: 100%;
+  padding-top: 1px;
+  background-image: url('../img/badrum_1.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.item1 h1, .item2 h1, .item3 h1, .item4 h1 {
+  line-height: 1.3;
+  padding-top: 90px;
+  margin-bottom: 5px;
+}
+.item2 {
+  height: 300px;
+  width: 100%;
+  background-image: url('../img/kk1.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.item3 {
+  height: 300px;
+  width: 100%;
+  background-image: url('../img/fnster_1.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.item4 {
+  height: 300px;
+  width: 100%;
+  background-image: url('../img/arbetare.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .footer {
   padding-top: 30px;
@@ -69,17 +111,6 @@ li {
   padding: 40px 50px;
   font-size: 28px;
 }
-.mi-carousel-button {
-  height: 70px;
-  width: 200px;
-  padding: 10px;
-  font-family: 'Allerta Stencil', sans-serif;
-  font-size: 40px;
-  color: #333;
-  background-color: #fac400;
-  border: none;
-  border-radius: 0px;
-}
 .carousel-button:hover {
   cursor: pointer;
   text-decoration: none;
@@ -87,6 +118,13 @@ li {
 #myCarousel {
   height: 500px;
   overflow-y: hidden;
+}
+.carousel img {
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+  max-width: none;
 }
 .carousel-caption {
   top: 160px;
@@ -96,16 +134,13 @@ li {
   text-shadow: none;
 }
 .carousel-caption h1 {
-  margin-bottom: 6px;
+  margin-bottom: 10px;
   color: #fff;
 }
 .carousel-button {
-  display: none;
-  height: 70px;
-  width: 200px;
   padding: 10px;
   font-family: 'Allerta Stencil', sans-serif;
-  font-size: 40px;
+  font-size: 28px;
   color: #333;
   background-color: #fac400;
   border: none;
@@ -729,16 +764,24 @@ main .col-md-12 a:hover {
 @media (max-width: 1106px) {
   .carousel-caption h1 {
     font-size: 25px;
-    margin-bottom: 3px;
-  }
-}
-@media (max-width: 991px) {
-  #myCarousel {
-    height: 300px;
-    overflow-y: hidden;
+    margin-bottom: 10px;
   }
   .carousel-caption {
-    top: 60px;
+    top: 180px;
+  }
+  .carousel-button {
+    font-size: 20px;
+  }
+}
+@media (max-width: 1010px) {
+  #myCarousel {
+    max-height: 400px;
+  }
+  .carousel-caption {
+    top: 120px;
+  }
+  .carousel-button {
+    font-size: 20px;
   }
   #pic-container2 {
     height: 550px;
@@ -772,7 +815,7 @@ main .col-md-12 a:hover {
     height: 360px;
   }
   .footer {
-    height: 480px;
+    height: 510px;
   }
 }
 @media (max-width: 854px) {
@@ -780,7 +823,19 @@ main .col-md-12 a:hover {
     font-size: 25px;
   }
 }
+@media (max-width: 812px) {
+  #myCarousel {
+    height: 350px;
+  }
+}
 @media (max-width: 767px) {
+  #myCarousel {
+    display: none;
+  }
+
+  .carousel-caption {
+    top: 130px;
+  }
   .mobile-indicator {
     display: inline-block;
   }
@@ -819,15 +874,12 @@ main .col-md-12 a:hover {
     font-size: 34px;
   }
 }
-@media (max-width: 636px) {
-  #myCarousel {
+@media (max-width: 666px) {
+  /*#myCarousel {
     height: 200px;
-  }
+  }*/
   .carousel-caption {
     top: 20px;
-  }
-  .mi-carousel-button {
-    font-size: 24px;
   }
   .partners {
     height: 420px;
@@ -858,15 +910,22 @@ main .col-md-12 a:hover {
     font-size: 18px;
   }
 }
-@media (max-width: 435px) {
+@media (max-width: 425px) {
   li {
     font-size: 14px;
   }
-  .partners {
-    height: 483px;
-  }
   .bauhaus {
     margin-left: 0px;
+  }
+}
+@media (max-width: 423px) {
+  .partners {
+    height: 520px;
+  }
+}
+@media (max-width: 405px) {
+  .partners {
+    height: 580px;
   }
 }
 @media (max-width: 393px) {
@@ -976,9 +1035,6 @@ main .col-md-12 a:hover {
   @media (max-width: 256px) {
     .carousel-caption h1 .underline {
       font-size: 15px;
-    }
-    .mi-carousel-button {
-      font-size: 14px;
     }
     .contact-button {
       font-size: 18px;

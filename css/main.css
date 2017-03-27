@@ -2,7 +2,6 @@ html {
   position: relative;
   min-height: 100%;
 }
-
 body {
   margin:0;
   padding:0;
@@ -10,28 +9,28 @@ body {
   font-family: 'Montserrat', sans-serif;
   color: #4F4F4F;
 }
-
 main {
   height: 500px;
   padding-top: 100px;
 }
-
 img {
   display: block;
   margin: 0 auto;
 }
-
 h1, h2, h3, h4, h5, h6 {
   font-weight: 800;
 }
-
+a {
+  color: #333;
+  font-size: 17px;
+  text-decoration: none;
+}
 p {
   font-size: 1.3em;
 }
 li {
   font-size: 1em;
 }
-/* Centre the page */
 .body {
     display:block;
     margin:0 auto;
@@ -43,7 +42,6 @@ label {
   margin-top:20px;
   font-size: 20px;
 }
-/* Centre the form within the page */
 form {
   margin: 0 auto;
   width: 459px;
@@ -51,8 +49,6 @@ form {
 .form-horizontal .control-label {
     text-align: left;
 }
-
-/* Style the text boxes */
 input, textarea {
   width:439px;
   margin-top:3px;
@@ -74,7 +70,7 @@ input, textarea {
   margin-bottom: 30px;
 }
 #offert-bg {
-  background-image: url('../img/building-joy-planning-plans_40.jpg');
+  background-image: url('../img/rsz_1building-joy-planning-plans_40.jpg');
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
@@ -94,7 +90,7 @@ input, textarea {
   height: 300px;
   width: 100%;
   padding-top: 1px;
-  background-image: url('../img/badrum_1.jpg');
+  background-image: url('../img/rsz_badrum_1.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -107,7 +103,7 @@ input, textarea {
 .item2 {
   height: 300px;
   width: 100%;
-  background-image: url('../img/kk1.jpg');
+  background-image: url('../img/rsz_kk1.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -115,7 +111,7 @@ input, textarea {
 .item3 {
   height: 300px;
   width: 100%;
-  background-image: url('../img/fnster_1.jpg');
+  background-image: url('../img/rsz_fnster_1.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -123,7 +119,7 @@ input, textarea {
 .item4 {
   height: 300px;
   width: 100%;
-  background-image: url('../img/arbetare.jpg');
+  background-image: url('../img/rsz_arbetare.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -137,7 +133,6 @@ input, textarea {
   background-color: #A6A6A6;
   text-align: center;
 }
-
 .topContainer {
   background-color: #FFF;
   width: 100%;
@@ -224,9 +219,6 @@ textarea {
   cursor: pointer;
   text-decoration: none;
 }
-/**************************
-     BOOTSTRAP OVERRIDES
-***************************/
 .partner-heading {
   clear:both;
   display: inline-block;
@@ -281,10 +273,9 @@ textarea {
 }
 #kok-pic-container {
   height: 480px;
-  background-image: url(../img/pexels-photo-259828.jpg);
+  background-image: url(../img/rsz_pexels-photo-259828.jpg);
   background-position: center center;
   background-repeat: no-repeat;
-
   background-size: cover;
 }
 #kok-pic-container .fa-cutlery:hover {
@@ -298,10 +289,9 @@ textarea {
 }
 #badrum-pic-container {
   height: 480px;
-  background-image: url(../img/pexels-photo-105934_20.jpg);
+  background-image: url(../img/rsz_1badrum_1.jpg);
   background-position: center center;
   background-repeat: no-repeat;
-
   background-size: cover;
 }
 #badrum-pic-container .fa-bath:hover {
@@ -315,7 +305,7 @@ textarea {
 }
 #snickeri-pic-container {
   height: 480px;
-  background-image: url(../img/pexels-photo-345135.jpg);
+  background-image: url(../img/rsz_pexels-photo-345135.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -325,13 +315,13 @@ textarea {
   color: #333;
 }
 #snickeri-pic-container .fa:hover {
-    width: 200px;
-    height: 200px;
-    cursor: default;
+  width: 200px;
+  height: 200px;
+  cursor: default;
 }
 #total-pic-container {
   height: 480px;
-  background-image: url(../img/pexels-photo.jpg);
+  background-image: url(../img/rsz_pexels-photo.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -341,9 +331,9 @@ textarea {
   color: #333;
 }
 #total-pic-container .fa:hover {
-    width: 200px;
-    height: 200px;
-    cursor: default;
+  width: 200px;
+  height: 200px;
+  cursor: default;
 }
 #pic-container {
   height: 500px;
@@ -354,30 +344,22 @@ textarea {
 }
 #pic-container2 {
   height: 480px;
-  background-image: url(../img/verktyg_20.jpg);
+  background-image: url(../img/rsz_verktyg_20.jpg);
   background-position: center bottom;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }
-
 .page-header {
   margin: 0px;
   padding-bottom: 0px;
   border-bottom: 0px;
-}
-
-a {
-  color: #333;
-  font-size: 17px;
-  text-decoration: none;
 }
 .marketing {
   padding-top: 90px;
   padding-right: 50px;
   padding-bottom: 90px;
   padding-left: 50px;
-
 }
 .dropdown-menu {
   border-radius: 0px;
@@ -398,7 +380,6 @@ a {
   padding-bottom: 40px;
   background-color: #ffffff;
 }
-.renovering-nav {}
 .grey-divider {
   background-color: grey;
   height: 5px;
@@ -446,14 +427,10 @@ a {
 .fa-building:hover {
   padding-top: 65px;
 }
-.iconClick {
-
-}
 .img-circle {
   width: 15 0px;
   margin-top: 30px;
   margin-bottom: 20px;
-
 }
 .img-circle2 {
   margin-top: 30px;
@@ -473,7 +450,6 @@ main .col-md-12 a:hover {
 .nav-tabs.nav-justified > li > a:hover {
     border: 1px solid #f0f0f0;
 }
-
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
   color: #ffffff;
   cursor: default;
@@ -481,7 +457,6 @@ main .col-md-12 a:hover {
   border: 0px;
   border-bottom-color: transparent;
 }
-
 .nav-tabs.nav-justified > .active > a, .nav-tabs.nav-justified > .active > a:hover, .nav-tabs.nav-justified > .active > a:focus {
   border-bottom: 0px;
 }
@@ -490,15 +465,12 @@ main .col-md-12 a:hover {
   border: 1px solid #fac400;
   cursor: pointer;
 }
-
 li > a:hover {
   color: #333;
 }
-
 button > a:hover {
   color: #FFF
 }
-
 .navbar {
   border: 0px;
   font-family: 'Montserrat', sans-serif;
@@ -542,7 +514,6 @@ button > a:hover {
   margin-top: 40px;
   margin-right: 10px;
   margin-left: 20px;
-
 }
 .ahlsell {
   width: 135px;
@@ -579,19 +550,14 @@ button > a:hover {
   width: 100%;
   margin-top: 30px;
 }
-
-
 .navbar-inverse {
   background-color: #fff;
 }
-
 ul > li.active {
   color: #232323;
   background-color: #C0C0C0;
   padding: 0px;
-
 }
-
 .img-responsive {
   width: 80%;
   margin-bottom: 30px;
@@ -601,7 +567,6 @@ ul > li.active {
   border-radius: 0px;
   display: inline;
 }
-
 .btn-primary {
   display: block;
   margin-top: 100px;
@@ -611,12 +576,10 @@ ul > li.active {
   font-weight: 800;
   border-radius: 0px;
 }
-
 .btn-primary:hover {
   background-color: #fac400;
   border-color: #fac400;
 }
-
 .footerText {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
@@ -666,39 +629,31 @@ main .col-md-12 a:hover {
 .underline {
   border-bottom: 4px solid #fac400;
 }
-/* Style the Image Used to Trigger the Modal */
 #myImg1, #myImg2, #myImg3, #myImg4 {
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
 }
-
 #myImg1:hover, #myImg2:hover, #myImg3:hover, #myImg4:hover {opacity: 0.7;}
-
-/* The Modal (background) */
 .modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
     left: 0;
     top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.9);
 }
-
-/* Modal Content (Image) */
 .modal-content {
     margin: auto;
     display: block;
     width: 70%;
     max-width: 700px;
 }
-
-/* Caption of Modal Image (Image Text) - Same Width as the Image */
 #caption1, #caption2, #caption3, #caption4 {
     margin: auto;
     display: block;
@@ -709,26 +664,20 @@ main .col-md-12 a:hover {
     padding: 10px 0;
     height: 150px;
 }
-
-/* Add Animation - Zoom in the Modal */
 .modal-content, #caption1, #caption2, #caption3, #caption4 {
     -webkit-animation-name: zoom;
     -webkit-animation-duration: 0.6s;
     animation-name: zoom;
     animation-duration: 0.6s;
 }
-
 @-webkit-keyframes zoom {
     from {-webkit-transform:scale(0)}
     to {-webkit-transform:scale(1)}
 }
-
 @keyframes zoom {
     from {transform:scale(0)}
     to {transform:scale(1)}
 }
-
-/* The Close Button */
 .close {
     position: absolute;
     top: 15px;
@@ -738,15 +687,12 @@ main .col-md-12 a:hover {
     font-weight: bold;
     transition: 0.3s;
 }
-
 .close:hover,
 .close:focus {
     color: #bbb;
     text-decoration: none;
     cursor: pointer;
 }
-
-/* 100% Image Width on Smaller Screens */
 @media only screen and (max-width: 700px){
     .modal-content {
         width: 100%;
@@ -791,7 +737,6 @@ main .col-md-12 a:hover {
   }
   #kok-pic-container {
     height: 240px;
-    background-image: url(../img/pexels-photo-259828.jpg);
   }
   #kok-pic-container .fa:hover {
     width: 100px;
@@ -804,7 +749,6 @@ main .col-md-12 a:hover {
   }
   #badrum-pic-container {
     height: 240px;
-    background-image: url(../img/pexels-photo-105934_20.jpg);
   }
   #badrum-pic-container .fa:hover {
     width: 100px;
@@ -817,7 +761,6 @@ main .col-md-12 a:hover {
   }
   #snickeri-pic-container {
     height: 240px;
-    background-image: url(../img/pexels-photo-345135.jpg);
   }
   #snickeri-pic-container .fa:hover {
     width: 100px;
@@ -830,7 +773,6 @@ main .col-md-12 a:hover {
   }
   #total-pic-container {
     height: 240px;
-    background-image: url(../img/pexels-photo.jpg);
   }
   #total-pic-container .fa:hover {
     width: 100px;
@@ -940,7 +882,6 @@ main .col-md-12 a:hover {
     margin-top: 0px;
     margin-bottom: 40px;
   }
-
 }
 @media (max-width: 740px) {
   h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
@@ -956,9 +897,6 @@ main .col-md-12 a:hover {
   }
 }
 @media (max-width: 666px) {
-  /*#myCarousel {
-    height: 200px;
-  }*/
   .carousel-caption {
     top: 20px;
   }
@@ -1194,7 +1132,6 @@ main .col-md-12 a:hover {
   .contact-button {
     font-size: 14px;
     padding: 10px 10px;
-
   }
   .contact-button:hover {
     font-size: 14px;

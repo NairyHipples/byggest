@@ -31,11 +31,6 @@ p {
 li {
   font-size: 1em;
 }
-.body {
-    display:block;
-    margin:0 auto;
-    width:576px;
-}
 label {
   display:block;
   text-align: left;
@@ -68,6 +63,12 @@ input, textarea {
 .auktoritet-logos {
   margin-top: 50px;
   margin-bottom: 30px;
+}
+.margin-top {
+  margin-top: 20px;
+}
+.margin-bottom {
+  margin-bottom: 40px;
 }
 #offert-bg {
   background-image: url('../img/rsz_1building-joy-planning-plans_40.jpg');
@@ -271,6 +272,22 @@ textarea {
 .services {
   font-size: 18px;
 }
+#vvs-pic-container {
+  height: 480px;
+  background-image: url(../img/rsz_2016-09-22_175025.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#vvs-pic-container .fa-tint:hover {
+  padding-top: 50px;
+  color: #333;
+}
+#vvs-pic-container .fa:hover {
+  width: 200px;
+  height: 200px;
+  cursor: default;
+}
 #kok-pic-container {
   height: 480px;
   background-image: url(../img/rsz_pexels-photo-259828.jpg);
@@ -418,7 +435,8 @@ textarea {
 .fa-cutlery,
 .fa-bath,
 .fa-home,
-.fa-building {
+.fa-building,
+.fa-tint {
   padding-top: 50px;
 }
 .fa-cutlery:hover,
@@ -426,6 +444,9 @@ textarea {
 .fa-home:hover,
 .fa-building:hover {
   padding-top: 65px;
+}
+.fa-tint:hover{
+  color: #333;
 }
 .img-circle {
   width: 15 0px;
@@ -629,12 +650,12 @@ main .col-md-12 a:hover {
 .underline {
   border-bottom: 4px solid #fac400;
 }
-#myImg1, #myImg2, #myImg3, #myImg4 {
+#myImg1, #myImg2, #myImg3, #myImg4, #myImg5, #myImg6 {
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
 }
-#myImg1:hover, #myImg2:hover, #myImg3:hover, #myImg4:hover {opacity: 0.7;}
+#myImg1:hover, #myImg2:hover, #myImg3:hover, #myImg4:hover, #myImg5:hover, #myImg6:hover {opacity: 0.7;}
 .modal {
     display: none;
     position: fixed;
@@ -718,7 +739,8 @@ main .col-md-12 a:hover {
   .fa-cutlery,
   .fa-bath,
   .fa-home,
-  .fa-building {
+  .fa-building,
+  .fa-tint {
     padding-top: 25px;
   }
   .fa-cutlery:hover,

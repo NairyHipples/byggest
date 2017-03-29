@@ -6,6 +6,7 @@
     <title>Byggest / VVS</title>
     <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil|Montserrat" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/main.css" media="screen" title="no title" charset="utf-8">
   </head>
   <body>
@@ -13,7 +14,7 @@
       <div class="container">
         <header class="page-header">
           <a href="index.html"><img src="img/logo.png" alt="Byggest Logo" class="headerLogo"></a>
-          <nav class="navbar navbar-inverse">
+          <nav class="navbar navbar-inverse renovering-nav">
             <ul class="nav nav-tabs nav-justified">
               <li><a href="index.html">HEM</a></li>
               <li class="active"><a href="vvs.html">VVS</a></li>
@@ -26,34 +27,85 @@
         </header>
       </div>
     </div>
-    <div id="pic-container">
-      <div class="container">
-        <main>
-          <div class="col-md-12">
-            <a><span class="highlight">Vi hjälper dig renovera</span><br><span class="highlight">ditt badrum</span></a>
-          </div>
-        </main>
-      </div>
-    </div>
-    <footer class="footer">
-      <div class="container footerText">
-        <h2>Information</h2>
-        <div class="row">
-          <div class="col-md-6 align-left">
-            <img src="img/logo.png" alt="Byggest Logo" class="footerLogo">
-            <p>Byggest VVS &amp; EL AB<br>Klostervägen 27<br>196 31 Kungsängen<br>Org. nr: 559090-7696</p>
-          </div>
-          <div class="col-md-6 contact-info align-left">
-            <p><strong>Tel:</strong> <span class="highlight2">08-40 888 609</span></p>
-            <p><strong>E-mail:</strong> <span class="highlight2">info@byggest.se</span></p>
+      <div id="vvs-pic-container">
+        <div class="container2">
+          <div class="">
+            <div class="row circleRow">
+              <div class="col-lg-12 center margin-top">
+                <a><i class="fa fa-tint"></i></a>
+                <h2 class="center"><span class="highlight3">VVS</span></h2>
+              </div><!-- /.col-lg-4 -->
+            </div><!-- /.row -->
           </div>
         </div>
       </div>
-      <div class="container footerText">
-        <p>&#169; 2017 Jonatan Östling</p>
+      <div class="white">
+        <div class="marketing container2">
+          <div class="row featurette">
+            <div class="col-md-5">
+              <img id="myImg5" class="featurette-image img-responsive center-block" src="img/2016-08-18_191054_2.jpg">
+            </div>
+            <div class="col-md-7">
+              <h2 class="featurette-heading">Modernt badrum. <span class="text-muted">Moderna lösningar.</span></h2>
+              <p class="lead">Vi kan installera duschblandare som sitter inuti din vägg. Glöm alla knappar, rör och handtag. En effektiv lösning för större utrymme i duschen.</p>
+            </div>
+          </div>
+        </div>
       </div>
-    </footer>
+      <div id="myModal5" class="modal">
+        <span class="close" onclick="document.getElementById('myModal5').style.display='none'">&times;</span>
+        <img class="modal-content" id="img05">
+        <div id="caption5"></div>
+      </div>
+      <div class="marketing container2">
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">Ditt behov. <span class="text-muted">Vår verksamhet.</span></h2>
+            <p class="lead">Vi lyssnar på ditt behov och använder den senaste tekniken, för att få moderna och hållbara lösningar.</p>
+          </div>
+          <div class="col-md-5">
+            <img id="myImg6" class="featurette-image img-responsive center-block" src="img/rsz_2016-06-19_125112.jpg">
+          </div>
+        </div>
+      </div>
+      <div class="white">
+        <div class="marketing container2">
+          <div class="row">
+            <div class="col-md-7">
+              <h2 class="featurette-heading">Kontakta oss. <span class="text-muted">Vi hjälper dig.</span></h2>
+              <p class="lead">Anlita Byggest för din köksrenovering! Med gratis kundbesök och slutbesiktning garanterar vi att du blir nöjd.</p>
+            </div>
+            <div class="col-md-5 contact-button-container">
+              <a href="contact.html" type="button" class="contact-button">Kom igång!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="myModal6" class="modal">
+        <span class="close" onclick="document.getElementById('myModal6').style.display='none'">&times;</span>
+        <img class="modal-content" id="img06">
+        <div id="caption6"></div>
+      </div>
+      <footer class="footer">
+        <div class="container footerText">
+          <h2>Information</h2>
+          <div class="row">
+            <div class="col-md-6 align-left">
+              <img src="img/logo.png" alt="Byggest Logo" class="footerLogo">
+              <p>Byggest VVS &amp; EL AB<br>Klostervägen 27<br>196 31 Kungsängen<br>Org. nr: 559090-7696</p>
+            </div>
+            <div class="col-md-6 contact-info align-left">
+              <p><strong>Tel:</strong> <span class="highlight2">08-40 888 609</span></p>
+              <p><strong>E-mail:</strong> <span class="highlight2">info@byggest.se</span></p>
+            </div>
+          </div>
+        </div>
+        <div class="container footerText">
+          <p>&#169; 2017 Jonatan Östling</p>
+        </div>
+      </footer>
     <script src="https://code.jquery.com/jquery-2.1.4.min.js" charset="utf-8"></script>
     <script src="js/bootstrap.js" charset="utf-8"></script>
+    <script src="js/main5.js"></script>
   </body>
 </html>

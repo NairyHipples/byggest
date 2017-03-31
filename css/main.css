@@ -521,9 +521,8 @@ button > a:hover {
   margin-left: 0px;
 }
 .partners {
-  height: 300px;
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
   background-color: #ffffff;
 }
 .about-partners {
@@ -885,11 +884,8 @@ main .col-md-12 a:hover {
     margin-top: 0px;
     margin-bottom: 40px;
   }
-  .partners {
-    height: 360px;
-  }
   .footer {
-    height: 534px;
+    height: 539px;
   }
 }
 @media (max-width: 854px) {
@@ -948,8 +944,13 @@ main .col-md-12 a:hover {
   .carousel-caption {
     top: 20px;
   }
-  .partners {
-    height: 420px;
+}
+@media (max-width: 560px) {
+  .partners img {
+    display: block;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 @media (max-width: 540px) {
@@ -964,6 +965,17 @@ main .col-md-12 a:hover {
   main .col-md-12 a:hover {
     cursor: pointer;
     font-size: 22px;
+  }
+}
+@media (max-width: 530px) {
+  .about-partners {
+    text-align: center;
+  }
+  .about-partners img {
+    display: block;
+    margin-top: 35px;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 @media (max-width: 506px) {
@@ -998,16 +1010,6 @@ main .col-md-12 a:hover {
   }
   .bauhaus {
     margin-left: 0px;
-  }
-}
-@media (max-width: 423px) {
-  .partners {
-    height: 540px;
-  }
-}
-@media (max-width: 405px) {
-  .partners {
-    height: 600px;
   }
 }
 @media (max-width: 393px) {
@@ -1087,9 +1089,6 @@ main .col-md-12 a:hover {
     font-size: 18px;
     line-height: normal;
   }
-  .partners {
-    height: 480px;
-  }
   .partner-heading-h2 {
     font-size: 30px;
   }
@@ -1109,7 +1108,7 @@ main .col-md-12 a:hover {
     margin-left: 20px;
   }
   .dahl {
-    width: 90px;
+    height: 45px;
   }
   .ahlsell {
     width: 90px;

@@ -84,13 +84,13 @@ input, textarea {
   overflow-y: hidden;
 }
 .vvs {
-  height: 105px;
+  height: 150px;
 }
 .vatrum {
-  height: 80px;
+  height: 120px;
 }
 .per {
-  height: 80px;
+  height: 120px;
 }
 .auktoritet-logos img {
   display: inline-block;
@@ -1099,6 +1099,16 @@ main .col-md-12 a:hover {
   }
 }
 @media (max-width: 348px) {
+  .vvs {
+    height: 105px;
+  }
+  .vatrum {
+    height: 80px;
+  }
+  .per {
+    height: 80px;
+
+  }
   form, .send-button {
     width: 200px;
   }

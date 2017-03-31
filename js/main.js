@@ -7,7 +7,7 @@ var captionText1 = document.getElementById("caption1");
 img1.onclick = function(){
     modal1.style.display = "block";
     modalImg1.src = this.src;
-    captionText1.innerHTML = this.alt;
+    captionText1.innerHTML.style.display = "block";
 }
 var img2 = document.getElementById('myImg2');
 var modalImg2 = document.getElementById("img02");
@@ -15,7 +15,7 @@ var captionText2 = document.getElementById("caption2");
 img2.onclick = function(){
     modal2.style.display = "block";
     modalImg2.src = this.src;
-    captionText2.innerHTML = this.alt;
+    captionText2.innerHTML.style.display = "block";
 }
 var span = document.getElementsByClassName("close")[0];
 span.onclick = function() {

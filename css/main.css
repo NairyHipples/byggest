@@ -220,6 +220,10 @@ textarea {
   cursor: pointer;
   text-decoration: none;
 }
+.byggest-info {
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
 .partner-heading {
   clear:both;
   display: inline-block;
@@ -394,7 +398,14 @@ textarea {
   background-color: #ffffff;
 }
 .white2 {
+  padding-top: 40px;
   padding-bottom: 40px;
+  background-color: #ffffff;
+}
+.white3 {
+  text-align: center;
+  padding-top: 120px;
+  padding-bottom: 140px;
   background-color: #ffffff;
 }
 .grey-divider {
@@ -650,12 +661,12 @@ main .col-md-12 a:hover {
 .underline {
   border-bottom: 4px solid #fac400;
 }
-#myImg1, #myImg2, #myImg3, #myImg4, #myImg5, #myImg6 {
+#myImg1, #myImg2, #myImg3, #myImg4, #myImg5, #myImg6, #myImg7, #myImg8 {
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
 }
-#myImg1:hover, #myImg2:hover, #myImg3:hover, #myImg4:hover, #myImg5:hover, #myImg6:hover {opacity: 0.7;}
+#myImg1:hover, #myImg2:hover, #myImg3:hover, #myImg4:hover, #myImg5:hover, #myImg6:hover, #myImg7:hover, #myImg8:hover {opacity: 0.7;}
 .modal {
     display: none;
     position: fixed;
@@ -675,7 +686,7 @@ main .col-md-12 a:hover {
     width: 70%;
     max-width: 700px;
 }
-#caption1, #caption2, #caption3, #caption4 {
+#caption1, #caption2, #caption3, #caption4, #caption5, #caption6, #caption7, #caption8 {
     margin: auto;
     display: block;
     width: 80%;
@@ -685,7 +696,7 @@ main .col-md-12 a:hover {
     padding: 10px 0;
     height: 150px;
 }
-.modal-content, #caption1, #caption2, #caption3, #caption4 {
+.modal-content, #caption1, #caption2, #caption3, #caption4, #caption5, #caption6, #caption7, #caption8 {
     -webkit-animation-name: zoom;
     -webkit-animation-duration: 0.6s;
     animation-name: zoom;
@@ -757,6 +768,18 @@ main .col-md-12 a:hover {
     padding-top: 60px;
     padding-bottom: 60px;
   }
+  #vvs-pic-container {
+    height: 240px;
+  }
+  #vvs-pic-container .fa:hover {
+    width: 100px;
+    height: 100px;
+    cursor: default;
+  }
+  #vvs-pic-container .fa-tint:hover {
+    padding-top: 25px;
+    color: #333;
+  }
   #kok-pic-container {
     height: 240px;
   }
@@ -822,6 +845,9 @@ main .col-md-12 a:hover {
   }
 }
 @media (max-width: 991px) {
+  .container2 {
+    padding-top: 22px;
+  }
   #myCarousel {
     max-height: 400px;
   }

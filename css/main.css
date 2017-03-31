@@ -44,9 +44,44 @@ form {
 .form-horizontal .control-label {
     text-align: left;
 }
+#myNavbar2 {
+  background-color: #eee;
+  border: 1px solid #eee;
+}
+#myNavbar2 > a {
+  color: #fff
+}
 input, textarea {
   width:439px;
   margin-top:3px;
+}
+.navbar-brand img {
+  width: 200px;
+}
+.navbar-brand {
+    display: none;
+    float: left;
+    height: 82px;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+}
+.navbar-inverse .navbar-toggle {
+  border: 0px;
+  margin-top: 30px;
+}
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+  background-color: #fff;
+}
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: #333;
+  height: 4px;
+  width: 30px;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+  border-color: #fff;
+  height: 100%;
+  overflow-y: hidden;
 }
 .vvs {
   height: 105px;
@@ -137,6 +172,11 @@ input, textarea {
 .topContainer {
   background-color: #FFF;
   width: 100%;
+}
+.topContainer2 {
+  background-color: #FFF;
+  width: 100%;
+  display: none;
 }
 .contact-button-container {
   margin-top: 80px;
@@ -473,11 +513,11 @@ main .col-md-12 a:hover {
   cursor: pointer;
   font-size: 50px;
 }
-.nav-tabs.nav-justified > li > a {
-  border-bottom: 0px;
-  border-radius: 0px;
+.nav-tabs.nav-justified > li > a {;
   padding-left: 0px;
   padding-right: 0px;
+  border-bottom: 0px;
+  border-radius: 0px;
 }
 .nav-tabs.nav-justified > li > a:hover {
     border: 1px solid #f0f0f0;
@@ -504,6 +544,7 @@ button > a:hover {
   color: #FFF
 }
 .navbar {
+  margin-bottom: 8px;
   border: 0px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
@@ -586,7 +627,7 @@ button > a:hover {
 }
 ul > li.active {
   color: #232323;
-  background-color: #C0C0C0;
+  background-color: #eee;
   padding: 0px;
 }
 .img-responsive {
@@ -899,6 +940,22 @@ main .col-md-12 a:hover {
   }
 }
 @media (max-width: 767px) {
+  .topContainer {
+    background-color: #FFF;
+    width: 100%;
+    display: none;
+  }
+  .topContainer2 {
+    background-color: #FFF;
+    width: 100%;
+    display: block;
+  }
+  .navbar-brand {
+    display: block;
+  }
+  .headerLogo {
+    display: none;
+  }
   #myCarousel {
     display: none;
   }
@@ -1013,6 +1070,16 @@ main .col-md-12 a:hover {
   }
 }
 @media (max-width: 393px) {
+  .navbar-brand img {
+      width: 152px;
+  }
+  .navbar-inverse .navbar-toggle {
+    border: 0px;
+    margin-top: 25px;
+  }
+  .item1 h1, .item2 h1, .item3 h1, .item4 h1 {
+    margin-bottom: 8px;
+  }
   h1, .h1 {
     font-size: 25px;
   }
@@ -1071,6 +1138,20 @@ main .col-md-12 a:hover {
   }
 }
 @media (max-width: 280px) {
+  .navbar-inverse .navbar-toggle {
+    margin-top: 18px;
+  }
+  .navbar-inverse .navbar-toggle .icon-bar {
+    height: 3px;
+    width: 24px;
+  }
+  .navbar-brand img {
+    width: 100px;
+  }
+  .navbar-brand {
+    height: 61px;
+  }
+
   .dropdown-menu > li > a {
     font-size: 12px;
   }
@@ -1169,6 +1250,15 @@ main .col-md-12 a:hover {
   }
   .highlight3 {
     font-size: 12px;
+  }
+}
+@media (max-width: 205px) {
+  .navbar-brand > img {
+    display: inline-block;
+    position: relative;
+  }
+  .navbar-toggle {
+    float: left;
   }
 }
 @media (max-width: 200px) {

@@ -1,5 +1,0 @@
-# Turn Rewrite Engine On
-RewriteEngine on
-
-# Rewrite for vvs.html
-RewriteRule ^custom vvs.html [NC,L]
